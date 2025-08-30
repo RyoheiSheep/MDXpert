@@ -4,7 +4,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "build": "webpack --mode development",
+    "start": "npm run build &&electron ."
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,20 @@
   "homepage": "https://github.com/RyoheiSheep/MDXpert#readme",
   "description": "",
   "devDependencies": {
-    "electron": "^37.4.0"
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "electron": "^37.4.0",
+    "eslint": "^9.34.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@tiptap/react": "^3.3.0",
+    "@tiptap/starter-kit": "^3.3.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   }
 }
