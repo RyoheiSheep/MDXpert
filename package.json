@@ -1,0 +1,23 @@
+{
+  "name": "mdxpert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyoheiSheep/MDXpert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyoheiSheep/MDXpert/issues"
+  },
+  "homepage": "https://github.com/RyoheiSheep/MDXpert#readme",
+  "description": "",
+  "devDependencies": {
+    "electron": "^37.4.0"
+  }
+}
